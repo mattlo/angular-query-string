@@ -1,0 +1,27 @@
+{
+  "name": "angular-query-string",
+  "version": "1.0.0",
+  "authors": [
+    "Matt Lo <mattlo.developer@gmail.com>"
+  ],
+  "description": "An Angular service that can extract key/value pairs from the URL",
+  "main": "angular-query-string.js",
+  "keywords": [
+    "angular",
+    "query",
+    "string",
+    "querystring"
+  ],
+  "dependencies": {
+    "angular": null
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/mattlo/angular-query-string",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
