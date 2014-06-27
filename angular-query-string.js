@@ -5,8 +5,8 @@
 			pairFragments,
 			keyValues;
 		
-		if (window.location.search.length > 0) {
-			pairFragments = window.location.search.substr(1).split('&');
+		if ($window.location.search.length > 0) {
+			pairFragments = $window.location.search.substr(1).split('&');
 			
 			for (i = 0; i < pairFragments.length; ++i) {
 				// has key and value
