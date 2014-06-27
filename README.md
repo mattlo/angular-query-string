@@ -15,3 +15,26 @@ var app = angular.module('MyApp', [
     'angular-query-string'
 ]);
 ```
+
+## Usage
+
+Dependency Injection Name: `UrlQueryString`
+
+```
+UrlQueryString.<KEY>;
+
+// http://cnn.com
+UrlQueryString.foo; // `undefined`
+
+// http://cnn.com?
+UrlQueryString.foo; // `undefined`
+
+// http://cnn.com?foo
+UrlQueryString.foo; // `null`
+
+// http://cnn.com?foo=bar
+UrlQueryString.foo; // `'bar'`
+``` 
+
+## License
+View the [LICENSE](https://github.com/mattlo/angular-query-string/blob/master/LICENSE) file.
